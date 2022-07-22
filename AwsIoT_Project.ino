@@ -12,8 +12,8 @@
 
 
 #define CLIENT_ID "Temp_Humidity"// thing unique ID, this id should be unique among all things associated with your AWS account.
-#define MQTT_TOPIC "$aws/things/thingName/shadow" //topic for the MQTT data
-#define AWS_HOST "a3tso8ypmghr91-ats.iot.us-east-1.amazonaws.com" // your host for uploading data to AWS,
+#define MQTT_TOPIC " " //topic for the MQTT data
+#define AWS_HOST " " // your host for uploading data to AWS,
 
 DHT dht(DHT_PIN, DHT_TYPE);
 AWS_IOT aws;
